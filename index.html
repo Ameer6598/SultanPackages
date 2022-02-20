@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sultan Packages</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="no image" width="200" height="200" >
+        <h1>We Protect Your Values</h1>
+    </nav>
+
+    <main>
+        <!-- <img src="logo.png"> -->
+        <div class="valse">
+          <h2>  Enter Length</h2>
+          <input type="Number" id="len">
+           <h2> Enter Width</h2>
+           <input type="Number" id="wid">
+            <h2>Enter Height</h2>
+            <input type="Number" id="hiet">
+            <h2>Cartons Quantity</h2>
+             <input type="Number" id="qty">
+             <h2>PLY</h2>
+             <input type="Number" id="ply">
+             <div class="btn">
+                <button onclick="total()">Total</button>
+                <button onclick="clr()">Clear</button>
+            </div>
+        </div>
+         
+            <div class="btn1">
+                <h2> Sheet 1</h2>
+                <button onclick="atl()" >ATL</button>
+                <button onclick="l1()">L1</button>
+                <button onclick="flo()">FLO</button>
+
+                <h2> Sheet 2</h2>
+                <button onclick="atl2()">ATL</button>
+                <button onclick="l12()">L1</button>
+                <button onclick="flo2()">FLO</button>
+            </div>
+        <div class="tovl">
+              <h2> Cut Sheet</h2>
+              <input type="Number" id="cut">
+              <h2> Roll Size</h2>
+              <input type="Number" id="ros">
+              <h2> Sheets In One Roll</h2>
+              <input type="Number" id="shr">
+              <h2>Rolls Required</h2>
+              <input type="Number" id="rr">
+              <h2>Sheet 1</h2>
+              <input type="Number" id="s1">
+              <h2>Sheet 2</h2>
+              <input type="Number" id="s2">
+              <h2>Paper Cost</h2>
+              <input type="Number" id="pc">
+              <h2>Silicate Cost</h2>
+              <input type="Number" id="sc">
+        </div>
+    </main>
+    <div class="crcost">
+        <button onclick="carton_cost()">
+            <h2>Carton Cost</h2>
+            </button>
+            <input type="number" id="crct">
+    </div>
+    <footer>
+        <div>
+            <h2> COPYRIGHTS @SultanPackages</h2>
+        </div>
+    </footer>
+    <script src="myScript.js"></script> 
+</body>
+
+</html>

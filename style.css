@@ -1,0 +1,194 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Serif 4', sans-serif;
+}
+nav{
+    background-color: #ffffff;
+    display: flex;
+    font-size: 350%;
+    align-items: center;
+    color: #7a551d;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 2px solid black; */
+}
+
+nav div{
+    border: 2px solid red;
+}
+nav h1{
+    margin-left: 5%;
+}
+main{
+    /* border: 2px solid black; */
+    display: flex;
+    /* background-image: url("back.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover ;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.valse{
+    /* border: 2px solid red; */
+    background-color:white;
+    line-height: 3rem;
+    width: 30%;
+    font-size: 120%;
+    text-shadow: 2px 2px #a7a4a4;
+    box-shadow: rgba(50, 50, 93, 0.712) 0px 13px 27px -5px, rgba(0, 0, 0, 0.568) 0px 8px 16px -8px;
+    word-spacing: 50%;
+}
+.valse input{
+    width:90%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 150%;    
+}
+.tovl{
+    /* border: 2px solid red; */
+    background-color:white;
+    line-height: 3rem;
+    font-size: 120%;
+    text-shadow: 2px 2px #a7a4a4;
+    word-spacing: 50%;
+    width: 30%;
+    box-shadow: rgba(50, 50, 93, 0.712) 0px 13px 27px -5px, rgba(0, 0, 0, 0.568) 0px 8px 16px -8px;
+}
+.tovl input{
+    width:90%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 150%;
+}
+
+.btn button{
+    text-shadow: 3px 3px #000000;
+     width: 50%; 
+    /* height: 20%; */
+    font-size: 150%;
+    border-radius:200px;
+    margin-top: 10%;
+    font-weight: 700;
+    background-color:#7a551d;
+    color: white;
+    box-shadow: rgba(85, 93, 50, 0.712) 0px 13px 27px -5px, rgba(0, 0, 0, 0.568) 0px 8px 16px -8px;
+}
+
+.btn1{
+    /* border: 2px solid  black; */
+    width: 30%;
+    
+    
+}
+.btn1 h2{
+
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px #a5a2a2;
+}
+
+.btn1 button{
+      width: 25%;
+      height: 5%;
+     font-size: 150%;
+     margin: 10px;
+     font-weight: 700;
+     background-color:#7a551d;
+     color: white;
+     border-radius: 5px;
+     box-shadow: rgba(85, 93, 50, 0.712) 0px 13px 27px -5px, rgba(0, 0, 0, 0.568) 0px 8px 16px -8px;
+    
+} 
+
+.crcost{
+    display: flex;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.crcost button{
+    font-size: 20px;
+    margin-right: 10px;
+    background-color:#7a551d;
+    font-weight: 600;
+    color: white;
+    
+}
+.crcost input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 150%;
+}
+
+footer{
+    margin-top: 50px;
+    background-color:#7a551d;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer div{
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+@media(max-width:998px)
+{
+    html{
+        font-size: 55%;
+    }
+}
+@media(max-width:768px)
+{
+    html{
+        font-size: 40%;
+    }
+    nav h1{
+        margin: 0;
+        font-size: 45px;
+    }
+    main{
+        display: block;
+    }
+    .valse{
+        width: 100%;
+        text-shadow: none;
+        font-size: 250%;
+    }
+    .valse h2{
+        margin-top: 10px;
+    }
+    .valse input{
+        margin-top: 10px;
+    }
+    .tovl{
+        margin-top: 20px;
+        width: 100%;
+        text-shadow: none;
+        font-size: 250%;
+    }
+    .tovl h2{
+        margin-top: 10px;
+    }
+    .tovl input{
+        margin-top: 10px;
+    }
+    .btn
+    {
+        font-size: 100%;   
+    }
+    .btn button{
+        text-shadow: none;
+        border-radius: 5px;
+        
+    }
+    .btn1{
+        width: 100%;
+    }
+    .btn1 button{
+        font-size: 25px;
+        
+    }
+}
